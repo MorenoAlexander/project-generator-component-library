@@ -1,0 +1,19 @@
+.button-fixed-style {
+  @apply shadow-xl px-1 py-0 hover:shadow-inner;
+  @apply text-opacity-70 drop-shadow-md rounded-sm;
+  @apply transition duration-300 ease-in-out transform hover:text-opacity-100 hover:scale-x-105;
+}
+
+.primary-button {
+}
+
+.primary-button:focus {
+  @apply transition duration-300 ease-in-out transform focus:border-indigo-600;
+}
+
+.secondary-button {
+}
+
+.loading-style {
+  @apply bg-opacity-50 text-opacity-50;
+}
